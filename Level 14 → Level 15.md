@@ -59,9 +59,6 @@ The service verified the password and displayed the password required to log in 
 
 I copied the password and used it for the next level.
 
-**Screenshot:**
-
-![Level 14 → Level 15 Password](level14-15.jpeg)
 
 ### Step 4: Exit the Current SSH Session
 
