@@ -60,7 +60,8 @@ I copied the password and used it for the next level.
 
 **Screenshot:**
 
-![Level 07 → Level 08 Password](level7-8.jpeg)
+<img width="511" height="110" alt="WhatsApp Image 2026-09-18 at 11 27 34 AM" src="https://github.com/user-attachments/assets/fafe7ced-a747-4760-9756-0c3d2f80fe01" />
+
 
 ### Step 4: Exit the Current SSH Session
 
