@@ -52,6 +52,8 @@ cat "spaces in this filename"
 ```
 
 The command displayed the password required to log in to Level 3.
+<img width="592" height="84" alt="WhatsApp Image 2026-09-10 at 10 51 58 PM (1)" src="https://github.com/user-attachments/assets/1787f82f-521b-469b-bb68-1d291e02b426" />
+
 
 I copied the password and used it for the next level.
 
