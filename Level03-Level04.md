@@ -79,9 +79,10 @@ The command displayed the password required to log in to Level 4.
 
 I copied the password and used it for the next level.
 
-**Screenshot:**
+Screenshot:
 
-![Level 03 → Level 04 Password](level3-4.jpeg)
+<img width="603" height="211" alt="WhatsApp Image 2026-09-10 at 10 51 59 PM" src="https://github.com/user-attachments/assets/446fdb36-1241-4677-aa8a-b1139aa118f5" />
+
 
 ### Step 6: Exit the Current SSH Session
 
