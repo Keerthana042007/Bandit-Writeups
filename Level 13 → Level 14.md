@@ -68,10 +68,6 @@ The command displayed the password required for the next level.
 
 I copied the password for use in the next level.
 
-**Screenshot:**
-
-![Level 13 → Level 14 Password](level13-14.jpeg)
-
 ### Step 5: Exit the Current SSH Session
 
 After obtaining the password, I exited the current SSH session using the `exit` command.
