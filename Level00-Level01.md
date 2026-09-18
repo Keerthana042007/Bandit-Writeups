@@ -56,6 +56,8 @@ cat readme
 ```
 
 The command displayed the password required to log in to Level 1.
+<img width="788" height="225" alt="WhatsApp Image 2026-09-10 at 10 51 58 PM" src="https://github.com/user-attachments/assets/f67f54fa-079f-40d1-bde4-c50bdc9ac242" />
+
 
 I copied the password and used it for the next level.
 
