@@ -52,6 +52,7 @@ cat ./-
 ```
 
 The command displayed the password required to log in to Level 2.
+<img width="527" height="162" alt="level1-2" src="https://github.com/user-attachments/assets/ed1900fa-d78f-4932-bb54-f7192a147234" />
 
 I copied the password and used it for the next level.
 
@@ -84,5 +85,4 @@ When asked for the password, I entered the password obtained from the `-` file a
 ## Result
 
 Bandit Level 01 → Level 02 completed successfully.
-<img width="527" height="162" alt="level1-2" src="https://github.com/user-attachments/assets/ed1900fa-d78f-4932-bb54-f7192a147234" />
 
