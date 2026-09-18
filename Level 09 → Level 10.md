@@ -10,7 +10,7 @@ Login to Bandit Level 9 and find the password for Level 10.
 | ------- | ------- |
 | `ssh` | Connect to a remote server |
 | `ls` | List files and directories |
-| `strings` | Display readable strings from a file |
+| `strings` | Display readable text from binary files |
 | `grep` | Search for specific text |
 | `exit` | Exit the current session |
 
@@ -44,22 +44,14 @@ The output showed a file named `data.txt`.
 data.txt
 ```
 
-### Step 3: Display the Readable Strings
+### Step 3: Find the Readable Text
 
-The `data.txt` file contained non-readable data. I used the `strings` command to display the readable strings from the file.
+The `data.txt` file contains binary data and some readable text.
 
-```bash
-strings data.txt
-```
-
-The command displayed several readable strings from the file.
-
-### Step 4: Search for the Password
-
-I searched for the string containing multiple `=` characters using the `grep` command.
+I used the `strings` command to display readable text from the file and the `grep` command to search for the text containing several `=` characters.
 
 ```bash
-strings data.txt | grep "=="
+strings data.txt | grep "==="
 ```
 
 The command displayed the password required to log in to Level 10.
@@ -70,7 +62,7 @@ I copied the password and used it for the next level.
 
 ![Level 09 → Level 10 Password](level9-10.jpeg)
 
-### Step 5: Exit the Current SSH Session
+### Step 4: Exit the Current SSH Session
 
 After obtaining the password, I exited the current SSH session using the `exit` command.
 
@@ -78,7 +70,7 @@ After obtaining the password, I exited the current SSH session using the `exit` 
 exit
 ```
 
-### Step 6: Login to Level 10
+### Step 5: Login to Level 10
 
 Next, I connected to the Bandit Level 10 server.
 
@@ -92,10 +84,9 @@ When asked for the password, I entered the password obtained from the `data.txt`
 
 - `ssh` is used to connect to a remote server.
 - `ls` is used to list files and directories.
-- `strings` is used to display readable strings from a file.
+- `strings` is used to display readable text from binary files.
 - `grep` is used to search for specific text.
-- The pipe `|` is used to pass the output of one command as input to another command.
-- `grep "=="` searches for lines containing `==`.
+- `strings data.txt | grep "==="` searches readable text containing `===`.
 - `exit` is used to close an SSH session.
 
 ## Result
